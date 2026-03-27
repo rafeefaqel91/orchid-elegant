@@ -1,0 +1,57 @@
+{% extends 'store/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <h1 class="mb-4">About Orchid Elegant</h1>
+            <p class="lead">We believe every little girl deserves to feel special and beautiful.</p>
+            <p>Orchid Elegant was founded with a simple mission: to provide high-quality, stylish, and comfortable clothing for girls of all ages. We understand that children need clothes that allow them to play, explore, and express themselves while looking absolutely adorable.</p>
+            <p>Our collection features carefully selected pieces that combine modern trends with timeless elegance. From everyday wear to special occasion dresses, we have something for every moment in your little one's life.</p>
+            <h4 class="mt-4">Our Values</h4>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-check-circle text-primary me-2"></i> Quality First - We only use the finest materials</li>
+                <li><i class="fas fa-check-circle text-primary me-2"></i> Comfort Matters - Clothes that move with your child</li>
+                <li><i class="fas fa-check-circle text-primary me-2"></i> Style & Elegance - Beautiful designs for every occasion</li>
+                <li><i class="fas fa-check-circle text-primary me-2"></i> Sustainability - Eco-friendly practices when possible</li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <img src="{% static 'store/images/about-us.jpg' %}" alt="About Us" class="img-fluid rounded shadow">
+        </div>
+    </div>
+    
+    <hr class="my-5">
+    
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-truck fa-3x text-primary mb-3"></i>
+                    <h4>Free Shipping</h4>
+                    <p>Free shipping on orders over $50</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-undo-alt fa-3x text-primary mb-3"></i>
+                    <h4>Easy Returns</h4>
+                    <p>30-day return policy</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <i class="fas fa-headset fa-3x text-primary mb-3"></i>
+                    <h4>24/7 Support</h4>
+                    <p>Dedicated customer service</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
