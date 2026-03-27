@@ -1,27 +1,6 @@
-# Python
+.vscode
+env/
+venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-
-# Django
-db.sqlite3
-media/
-staticfiles/
-.env
-
-# IDE
 .vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
+db.sqlite3
